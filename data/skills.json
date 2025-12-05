@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1 ,
+        "name": "Python",
+        "detail": "Advanced",
+        "type":"py"
+    },
+    {
+        "id": 2 ,
+        "name": "React", 
+        "detail": "Intermediate",
+        "type":"react"
+    },
+    {
+        "id": 3 ,
+        "name": "FastAPI", 
+        "detail": "Advanced",
+        "type":"fastapi"
+    },
+    {
+        "id": 4 ,
+        "name": "Lua", 
+        "detail": "Intermediate",
+        "type":"lua"
+    }
+]
