@@ -12,14 +12,6 @@ from pathlib import Path
 
 app = FastAPI()
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:5173/Portfoilo"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
 def load_data_from_json(file_path):
     try:
         with open(file_path,"r",encoding="utf-8") as f:
